@@ -1,0 +1,66 @@
+body{
+    font-family: "Crimson Text",sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*PC画面*/
+@media screen and (min-width: 768px) {
+    body {
+        margin: 5%  ;
+        
+      }
+    #mainvisual img{
+        width: 90vw;
+    }
+
+    #header {
+        display: flex;
+        width: 90vw;
+        justify-content: left;
+    }
+    #siteTitle {
+        width: 120px;
+    }
+    #header img {
+        width: 100%;
+    }
+    #nav {
+        display: flex;
+    }
+    .navList {
+        list-style:none;
+        margin: auto 20px;
+    }
+    .navList > a {
+        text-decoration: none;
+        color: black;
+    }
+    #totalmain {
+       width: 1000px; 
+       margin: 0 auto;
+    }
+    #concept {
+        width: 100%;
+        
+    }
+    #concept-flex {
+        display: flex;       
+        align-items: center;
+        margin: 0 auto;
+    }    
+    .commontext {
+        margin: 5px auto;
+        width: 50%;
+        
+    }
+    .commonimg {
+        width: 50%;
+        padding: 0px;
+    }
+    .commonimg > img {
+        max-width: 90%;
+        
+    }
+    
+}
